@@ -10,7 +10,7 @@ public class LinkCommon
 {
 	public static void main(String[] args) throws InterruptedException 
 	{
-		// New code added to test in git 
+		// Tester 2 chnaged  
 		System.out.println("Starts main------");
 		FirefoxDriver driver=new FirefoxDriver();
 		driver.get("file:///D:/qtp%20practise/web%20apps/ALL%20Web%20objects.html");
