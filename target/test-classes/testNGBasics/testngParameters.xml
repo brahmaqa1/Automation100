@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite  name="Axpert test suite">
+
+	<test name="My test name">
+		<parameter name ="userid" value="Brahma"></parameter>
+		<parameter name ="pwd" value="mercury"></parameter>
+		
+		<classes>
+			<class name="testNGBasics.ParameterBasics1"/>
+		</classes>
+		
+	</test>
+
+
+</suite>

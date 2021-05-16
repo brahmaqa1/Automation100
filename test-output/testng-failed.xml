@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Axpert test suite]">
+  <parameter name="pwd" value="mercury"/>
+  <parameter name="userid" value="Brahma"/>
+  <test name="My test name(failed)">
+    <parameter name="pwd" value="mercury"/>
+    <parameter name="userid" value="Brahma"/>
+    <classes>
+      <class name="testNGBasics.TestListners">
+        <methods>
+          <include name="Test1"/>
+        </methods>
+      </class> <!-- testNGBasics.TestListners -->
+    </classes>
+  </test> <!-- My test name(failed) -->
+</suite> <!-- Failed suite [Axpert test suite] -->
