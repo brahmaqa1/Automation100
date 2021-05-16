@@ -11,6 +11,17 @@ import Utilities.baseTest;
 public class LinksAll extends baseTest
 {
 
+public static int getAllLinksCount()
+	{
+		List <WebElement> links= driver.findElements(By.tagName("a"));
+		int lnkcnt=links.size();//8
+		System.out.println("lnk cnt="+lnkcnt);	//
+
+		return lnkcnt;
+		
+	}
+
+
 	public static void main(String[] args) {
 		WebDriver d= openBrowser("Chrome");
 		d.get("file:///D:/qtp%20practise/web%20apps/ALL%20Web%20objects.html");
